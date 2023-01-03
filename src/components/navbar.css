@@ -1,0 +1,117 @@
+.header {
+  /* background: linear-gradient(21deg, rgba(255, 255, 255, 0.324), #007bff7a); */
+  background: linear-gradient(21deg, rgba(255, 255, 255, 0.324), #000000d0);
+  padding: 0rem 1rem;
+  font-weight: 700;
+  position:fixed !important;
+  top: 0px !important;
+  width: 100%;
+  z-index: 10;
+}
+.navbar1{
+    width: 100%;
+    --bs-navbar-padding-y: 0rem !important; 
+}
+hr {
+  margin: 0rem 0rem !important;
+}
+ul{
+  margin-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.nav_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company_name{
+    display: flex;
+    flex-direction: column;
+    margin-left: .5rem;
+}
+.company_span2{
+    font-size: .7rem;
+}
+.nav_left img {
+  width: 2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+
+}
+.nav_right ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_right ul li {
+  margin-left: 1rem;
+}
+
+.nav_right_1 {
+  padding: 1rem;
+  
+}
+.nav_right_2 {
+  display: none !important;
+}
+.nav_right_2 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+}
+.nav_right_2 button span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 0.7rem .5rem;
+}
+.brochure{
+    background: #007bff;
+    padding: .8rem; 
+    color: #fff;
+}
+.nav_mobile {
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: var(--light);
+  transition-delay:5s;
+}
+#mobileList {
+  display: none;
+}
+.nav_mobile ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #211e3b;
+}
+
+.nav_mobile ul li {
+  padding: 0.5rem 0rem;
+}
+.navbar1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 480px) {
+  .nav_right_2 {
+    display: block !important;
+  }
+  .nav_right_1 {
+    display: none !important;
+  }
+}
